@@ -1,8 +1,8 @@
-from deck_cartas import Deck
+from sistema import Sistema
 
 def main():
-    deck = Deck()
-    deck.run()
+    sistema = Sistema()
+    sistema.run()
 
 if __name__ == "__main__":
     main()
